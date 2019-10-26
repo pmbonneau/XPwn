@@ -594,7 +594,7 @@ int main(int argc, char* argv[]) {
 	X509_free(x0);
 
 	EVP_cleanup();
-	ERR_remove_state(0);
+	
 	CRYPTO_cleanup_all_ex_data();
 	return error;
 }
